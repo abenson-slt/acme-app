@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: var(--acme-text-default);
+  background: var(--acme-bg-default);
+  font-family: theme('fontFamily.sans');
+}
