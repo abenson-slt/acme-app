@@ -107,7 +107,7 @@ export function Hero() {
                     {product.priceLabel}
                   </p>
                 </div>
-                <Button variant="outline-inverse" size="sm" fullWidth>
+                <Button variant="outline-inverse" size="sm">
                   Add to Cart
                 </Button>
               </div>
