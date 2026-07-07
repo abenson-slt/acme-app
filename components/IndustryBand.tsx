@@ -4,7 +4,7 @@ export function IndustryBand() {
   return (
     <section
       aria-labelledby="industry-heading"
-      className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 py-12 sm:px-6 lg:px-8"
+      className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] bg-fixed px-4 py-12 sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-[1440px]">
         <h2

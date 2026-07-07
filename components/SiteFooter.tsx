@@ -4,7 +4,7 @@ import { footerColumns, legalLinks } from "../lib/homepage-data";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 py-12 sm:px-6 lg:px-8">
+    <footer className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] bg-fixed px-4 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-[1440px]">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
           <div className="flex flex-col gap-4">

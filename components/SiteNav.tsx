@@ -19,7 +19,7 @@ export function SiteNav() {
   const [drawerOpen, setDrawerOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE]">
+    <header className="sticky top-0 z-50 border-b border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] bg-fixed">
       <div className="mx-auto flex h-[72px] max-w-[1440px] items-center gap-4 px-4 sm:px-6 lg:px-8">
         <a
           href="/"
@@ -82,7 +82,7 @@ export function SiteNav() {
       {drawerOpen && (
         <div
           id="mobile-nav-drawer"
-          className="border-t border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 pb-6 pt-4 lg:hidden"
+          className="border-t border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] bg-fixed px-4 pb-6 pt-4 lg:hidden"
         >
           <div className="mb-4">
             <Input

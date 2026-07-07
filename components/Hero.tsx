@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 pb-12 pt-10 sm:px-6 lg:px-8 lg:pb-16 lg:pt-14"
+      className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] bg-fixed px-4 pb-12 pt-10 sm:px-6 lg:px-8 lg:pb-16 lg:pt-14"
     >
       <div className="mx-auto max-w-[1440px]">
         <h1
@@ -39,7 +39,11 @@ export function Hero() {
         {/* Quick Access Panel */}
         <div className="mt-10">
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <div role="tablist" aria-label="Quick access" className="flex gap-2">
+            <div
+              role="tablist"
+              aria-label="Quick access"
+              className="flex gap-1 rounded-lg border border-white/20 bg-white/10 p-1 backdrop-blur-md"
+            >
               <button
                 type="button"
                 role="tab"
