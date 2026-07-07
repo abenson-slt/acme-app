@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@acme/design-system": "github:abenson-slt/acme-design-system",
+    "@acme/design-system": "git+https://github.com/abenson-slt/acme-design-system.git",
     "lucide-react": "^0.446.0",
     "next": "14.2.35",
     "react": "^18",
