@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@acme/design-system/tokens.css";
+import "@abenson-slt/acme-design-system/tokens.css";
 import "./globals.css";
 
 export const metadata: Metadata = {

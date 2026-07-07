@@ -1,4 +1,4 @@
-import { Button } from "@acme/design-system";
+import { Button } from "@abenson-slt/acme-design-system";
 import { AcmeLogo } from "./AcmeLogo";
 import { footerColumns, legalLinks } from "../lib/homepage-data";
 

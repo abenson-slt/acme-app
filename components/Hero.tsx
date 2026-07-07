@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Button, Input, Badge } from "@acme/design-system";
+import { Button, Input, Badge } from "@abenson-slt/acme-design-system";
 import { Search } from "lucide-react";
 import { quickAccessProducts } from "../lib/homepage-data";
 

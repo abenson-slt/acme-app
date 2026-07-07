@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Button } from "@acme/design-system";
+import { Button } from "@abenson-slt/acme-design-system";
 import { Menu, ShoppingCart, X } from "lucide-react";
 import { AcmeLogo } from "./AcmeLogo";
 import { GlassSearchInput } from "./GlassSearchInput";
@@ -10,7 +10,7 @@ import { navLinks } from "../lib/homepage-data";
 const CART_ITEM_COUNT = 3;
 
 /**
- * Page-level site navigation. Composed from @acme/design-system primitives
+ * Page-level site navigation. Composed from @abenson-slt/acme-design-system primitives
  * (Button, Input) plus semantic-token markup, since the design system does
  * not yet export a purpose-built page-level `Nav` component (only
  * primitives) — see final report for this being flagged as a suggested

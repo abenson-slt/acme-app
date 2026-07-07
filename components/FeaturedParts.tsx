@@ -4,13 +4,13 @@ import {
   Card,
   CardContent,
   CardFooter,
-} from "@acme/design-system";
+} from "@abenson-slt/acme-design-system";
 import { Package } from "lucide-react";
 import { featuredParts } from "../lib/homepage-data";
 
 /**
  * Product card composed from design-system Card + Badge + Button. There is
- * no purpose-built `ProductCard` in @acme/design-system yet — this
+ * no purpose-built `ProductCard` in @abenson-slt/acme-design-system yet — this
  * composition is reused conceptually by the Hero's quick-access cards too,
  * so it's flagged in the final report as a suggested design-system addition.
  */

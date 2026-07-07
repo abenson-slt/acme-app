@@ -10,7 +10,7 @@ export interface GlassSearchInputProps
 
 /**
  * Page-level "on-dark glass" search input, used on the gradient header/hero
- * sections in place of @acme/design-system's `Input`.
+ * sections in place of @abenson-slt/acme-design-system's `Input`.
  *
  * `Input`'s icon-mode (leadingIcon/trailingIcon) wraps a plain `<input>` and
  * icon `<span>` whose classes are hardcoded in the component body — only the
@@ -23,7 +23,7 @@ export interface GlassSearchInputProps
  *
  * This is a genuine design-system gap (no on-dark/glass variant exists for
  * `Input`) rather than something fixable from the call site — flagged for a
- * future `@acme/design-system` addition. In the meantime this local
+ * future `@abenson-slt/acme-design-system` addition. In the meantime this local
  * component mirrors `Input`'s icon-mode markup with on-inverse tokens.
  */
 export const GlassSearchInput = React.forwardRef<
