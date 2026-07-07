@@ -19,7 +19,7 @@ export function SiteNav() {
   const [drawerOpen, setDrawerOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border-strong bg-surface-inverse">
+    <header className="sticky top-0 z-50 border-b border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE]">
       <div className="mx-auto flex h-[72px] max-w-[1440px] items-center gap-4 px-4 sm:px-6 lg:px-8">
         <a
           href="/"
@@ -55,7 +55,7 @@ export function SiteNav() {
           <a
             href="#"
             aria-label={`Cart, ${CART_ITEM_COUNT} items`}
-            className="relative flex size-11 items-center justify-center rounded-md text-content-on-inverse transition-colors hover:bg-surface-overlay focus-visible:outline-none focus-visible:shadow-focus"
+            className="relative flex size-11 items-center justify-center rounded-md text-content-on-inverse transition-colors hover:bg-white/10 hover:backdrop-blur-sm focus-visible:outline-none focus-visible:shadow-focus"
           >
             <ShoppingCart aria-hidden="true" />
             <span className="absolute -right-0.5 -top-0.5 flex size-5 items-center justify-center rounded-full bg-interactive-primary text-[11px] font-semibold text-interactive-primary-fg">
@@ -69,7 +69,7 @@ export function SiteNav() {
 
         <button
           type="button"
-          className="ml-auto flex size-11 items-center justify-center rounded-md text-content-on-inverse hover:bg-surface-overlay focus-visible:outline-none focus-visible:shadow-focus lg:hidden"
+          className="ml-auto flex size-11 items-center justify-center rounded-md text-content-on-inverse hover:bg-white/10 hover:backdrop-blur-sm focus-visible:outline-none focus-visible:shadow-focus lg:hidden"
           aria-label={drawerOpen ? "Close menu" : "Open menu"}
           aria-expanded={drawerOpen}
           aria-controls="mobile-nav-drawer"
@@ -82,7 +82,7 @@ export function SiteNav() {
       {drawerOpen && (
         <div
           id="mobile-nav-drawer"
-          className="border-t border-border-strong bg-surface-inverse px-4 pb-6 pt-4 lg:hidden"
+          className="border-t border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 pb-6 pt-4 lg:hidden"
         >
           <div className="mb-4">
             <Input
@@ -97,7 +97,7 @@ export function SiteNav() {
               <a
                 key={link}
                 href="#"
-                className="flex min-h-11 items-center rounded-md px-2 text-body-lg font-medium text-content-on-inverse transition-colors hover:bg-surface-overlay focus-visible:outline-none focus-visible:shadow-focus"
+                className="flex min-h-11 items-center rounded-md px-2 text-body-lg font-medium text-content-on-inverse transition-colors hover:bg-white/10 hover:backdrop-blur-sm focus-visible:outline-none focus-visible:shadow-focus"
               >
                 {link}
               </a>
@@ -107,7 +107,7 @@ export function SiteNav() {
             <a
               href="#"
               aria-label={`Cart, ${CART_ITEM_COUNT} items`}
-              className="relative flex size-11 items-center justify-center rounded-md text-content-on-inverse hover:bg-surface-overlay focus-visible:outline-none focus-visible:shadow-focus"
+              className="relative flex size-11 items-center justify-center rounded-md text-content-on-inverse hover:bg-white/10 hover:backdrop-blur-sm focus-visible:outline-none focus-visible:shadow-focus"
             >
               <ShoppingCart aria-hidden="true" />
               <span className="absolute -right-0.5 -top-0.5 flex size-5 items-center justify-center rounded-full bg-interactive-primary text-[11px] font-semibold text-interactive-primary-fg">

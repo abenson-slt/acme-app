@@ -4,7 +4,7 @@ export function IndustryBand() {
   return (
     <section
       aria-labelledby="industry-heading"
-      className="bg-surface-inverse px-4 py-12 sm:px-6 lg:px-8"
+      className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 py-12 sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-[1440px]">
         <h2
@@ -18,7 +18,7 @@ export function IndustryBand() {
             <a
               key={industry}
               href="#"
-              className="flex min-h-11 items-center rounded-full border border-border-strong px-5 text-body-md font-medium text-content-on-inverse transition-colors hover:bg-surface-overlay focus-visible:outline-none focus-visible:shadow-focus"
+              className="flex min-h-11 items-center rounded-full border border-border-strong px-5 text-body-md font-medium text-content-on-inverse transition-colors hover:bg-white/10 hover:backdrop-blur-sm focus-visible:outline-none focus-visible:shadow-focus"
             >
               {industry}
             </a>

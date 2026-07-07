@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="bg-surface-inverse px-4 pb-12 pt-10 sm:px-6 lg:px-8 lg:pb-16 lg:pt-14"
+      className="bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] px-4 pb-12 pt-10 sm:px-6 lg:px-8 lg:pb-16 lg:pt-14"
     >
       <div className="mx-auto max-w-[1440px]">
         <h1
@@ -112,7 +112,7 @@ export function Hero() {
         </div>
 
         {/* Supplier Spotlight banner */}
-        <div className="mt-10 rounded-xl border border-border-strong bg-surface-overlay p-6 sm:p-8">
+        <div className="mt-10 rounded-xl border border-white/20 bg-white/10 backdrop-blur-md p-6 sm:p-8">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <Badge variant="info">Partner Spotlight</Badge>
