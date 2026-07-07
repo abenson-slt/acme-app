@@ -22,7 +22,7 @@ export function Hero() {
         >
           Welcome back, Sarah.
         </h1>
-        <p className="mt-2 text-body-lg text-content-on-inverse/80">
+        <p className="mt-2 text-body-lg text-content-on-inverse">
           Pick up where you left off, or search for your next part.
         </p>
 
@@ -50,7 +50,7 @@ export function Hero() {
                 className={`flex min-h-11 items-center rounded-md px-4 text-body-md font-medium transition-colors focus-visible:outline-none focus-visible:shadow-focus ${
                   activeTab === "continue"
                     ? "bg-surface text-content"
-                    : "text-content-on-inverse/70 hover:text-content-on-inverse"
+                    : "text-content-on-inverse hover:text-content-on-inverse"
                 }`}
               >
                 Continue Shopping
@@ -65,7 +65,7 @@ export function Hero() {
                 className={`flex min-h-11 items-center rounded-md px-4 text-body-md font-medium transition-colors focus-visible:outline-none focus-visible:shadow-focus ${
                   activeTab === "reorder"
                     ? "bg-surface text-content"
-                    : "text-content-on-inverse/70 hover:text-content-on-inverse"
+                    : "text-content-on-inverse hover:text-content-on-inverse"
                 }`}
               >
                 Order Again
@@ -119,7 +119,7 @@ export function Hero() {
               <h2 className="mt-3 text-heading-2 font-bold text-content-on-inverse">
                 Honeywell Aerospace — 3,400+ Certified Parts
               </h2>
-              <p className="mt-2 text-body-md text-content-on-inverse/80">
+              <p className="mt-2 text-body-md text-content-on-inverse">
                 AS9100D certified. Most orders ship in 2 business days.
               </p>
             </div>

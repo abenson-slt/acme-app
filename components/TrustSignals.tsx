@@ -16,7 +16,7 @@ export function TrustSignals() {
                 <p className="text-body-lg font-semibold text-content-on-inverse">
                   {signal.heading}
                 </p>
-                <p className="mt-0.5 text-body-sm text-content-on-inverse/70">
+                <p className="mt-0.5 text-body-sm text-content-on-inverse">
                   {signal.subline}
                 </p>
               </div>

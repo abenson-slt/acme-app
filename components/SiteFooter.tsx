@@ -24,7 +24,7 @@ export function SiteFooter() {
                     <li key={link}>
                       <a
                         href="#"
-                        className="flex min-h-11 items-center text-body-sm text-content-on-inverse/70 hover:text-content-on-inverse focus-visible:outline-none focus-visible:shadow-focus sm:min-h-0"
+                        className="flex min-h-11 items-center text-body-sm text-content-on-inverse hover:text-content-on-inverse focus-visible:outline-none focus-visible:shadow-focus sm:min-h-0"
                       >
                         {link}
                       </a>
@@ -45,7 +45,7 @@ export function SiteFooter() {
         <hr className="my-8 border-border-strong" />
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-body-sm text-content-on-inverse/70">
+          <p className="text-body-sm text-content-on-inverse">
             &copy; 2026 ACME Parts Portal. All rights reserved.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
@@ -53,7 +53,7 @@ export function SiteFooter() {
               <li key={link}>
                 <a
                   href="#"
-                  className="flex min-h-11 items-center text-body-sm text-content-on-inverse/70 hover:text-content-on-inverse focus-visible:outline-none focus-visible:shadow-focus sm:min-h-0"
+                  className="flex min-h-11 items-center text-body-sm text-content-on-inverse hover:text-content-on-inverse focus-visible:outline-none focus-visible:shadow-focus sm:min-h-0"
                 >
                   {link}
                 </a>

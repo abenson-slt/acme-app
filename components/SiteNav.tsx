@@ -36,7 +36,7 @@ export function SiteNav() {
             <a
               key={link}
               href="#"
-              className="flex min-h-11 items-center text-body-md font-medium text-content-on-inverse/80 transition-colors hover:text-content-on-inverse focus-visible:outline-none focus-visible:shadow-focus"
+              className="flex min-h-11 items-center text-body-md font-medium text-content-on-inverse transition-colors hover:text-content-on-inverse focus-visible:outline-none focus-visible:shadow-focus"
             >
               {link}
             </a>
@@ -44,7 +44,7 @@ export function SiteNav() {
         </nav>
 
         <div className="ml-auto hidden items-center gap-4 lg:flex">
-          <div className="w-72">
+          <div className="w-80 xl:w-96">
             <Input
               type="search"
               placeholder="Search parts or part numbers..."
