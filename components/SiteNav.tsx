@@ -1,9 +1,10 @@
 "use client";
 
 import * as React from "react";
-import { Button, Input } from "@acme/design-system";
-import { Menu, Search, ShoppingCart, X } from "lucide-react";
+import { Button } from "@acme/design-system";
+import { Menu, ShoppingCart, X } from "lucide-react";
 import { AcmeLogo } from "./AcmeLogo";
+import { GlassSearchInput } from "./GlassSearchInput";
 import { navLinks } from "../lib/homepage-data";
 
 const CART_ITEM_COUNT = 3;
@@ -45,11 +46,10 @@ export function SiteNav() {
 
         <div className="ml-auto hidden items-center gap-4 lg:flex">
           <div className="w-80 xl:w-96">
-            <Input
+            <GlassSearchInput
               type="search"
               placeholder="Search parts or part numbers..."
               aria-label="Search parts or part numbers"
-              leadingIcon={<Search />}
             />
           </div>
           <a
@@ -62,7 +62,11 @@ export function SiteNav() {
               {CART_ITEM_COUNT}
             </span>
           </a>
-          <Button variant="secondary" size="md">
+          <Button
+            variant="secondary"
+            size="md"
+            className="border-white/20 bg-white/10 text-content-on-inverse backdrop-blur-md hover:bg-white/20"
+          >
             My Account
           </Button>
         </div>
@@ -85,11 +89,10 @@ export function SiteNav() {
           className="border-t border-white/20 bg-gradient-to-br from-[#262276] via-[#433CB6] via-[55%] to-[#734FDE] bg-fixed px-4 pb-6 pt-4 lg:hidden"
         >
           <div className="mb-4">
-            <Input
+            <GlassSearchInput
               type="search"
               placeholder="Search parts or part numbers..."
               aria-label="Search parts or part numbers"
-              leadingIcon={<Search />}
             />
           </div>
           <nav aria-label="Primary" className="flex flex-col gap-1">
@@ -114,7 +117,12 @@ export function SiteNav() {
                 {CART_ITEM_COUNT}
               </span>
             </a>
-            <Button variant="secondary" size="md" fullWidth>
+            <Button
+              variant="secondary"
+              size="md"
+              fullWidth
+              className="border-white/20 bg-white/10 text-content-on-inverse backdrop-blur-md hover:bg-white/20"
+            >
               My Account
             </Button>
           </div>

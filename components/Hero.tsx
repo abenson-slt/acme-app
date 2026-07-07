@@ -53,7 +53,7 @@ export function Hero() {
                 onClick={() => setActiveTab("continue")}
                 className={`flex min-h-11 items-center rounded-md px-4 text-body-md font-medium transition-colors focus-visible:outline-none focus-visible:shadow-focus ${
                   activeTab === "continue"
-                    ? "bg-surface text-content"
+                    ? "bg-white/20 text-content-on-inverse"
                     : "text-content-on-inverse hover:text-content-on-inverse"
                 }`}
               >
@@ -68,7 +68,7 @@ export function Hero() {
                 onClick={() => setActiveTab("reorder")}
                 className={`flex min-h-11 items-center rounded-md px-4 text-body-md font-medium transition-colors focus-visible:outline-none focus-visible:shadow-focus ${
                   activeTab === "reorder"
-                    ? "bg-surface text-content"
+                    ? "bg-white/20 text-content-on-inverse"
                     : "text-content-on-inverse hover:text-content-on-inverse"
                 }`}
               >
@@ -94,20 +94,20 @@ export function Hero() {
             {quickAccessProducts.map((product) => (
               <div
                 key={product.partNumber}
-                className="flex flex-col justify-between gap-3 rounded-lg border border-border-strong bg-surface p-4"
+                className="flex flex-col justify-between gap-3 rounded-lg border border-white/20 bg-white/10 p-4 backdrop-blur-md"
               >
                 <div>
-                  <p className="text-body-md font-semibold text-content">
+                  <p className="text-body-md font-semibold text-content-on-inverse">
                     {product.name}
                   </p>
-                  <p className="mt-1 text-body-sm text-content-muted">
+                  <p className="mt-1 text-body-sm text-content-on-inverse">
                     {product.partNumber}
                   </p>
-                  <p className="mt-2 text-body-md font-semibold text-content-brand">
+                  <p className="mt-2 text-body-md font-semibold text-content-accent-on-inverse">
                     {product.priceLabel}
                   </p>
                 </div>
-                <Button variant="outline" size="sm" fullWidth>
+                <Button variant="outline-inverse" size="sm" fullWidth>
                   Add to Cart
                 </Button>
               </div>
